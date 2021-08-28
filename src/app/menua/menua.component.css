@@ -1,0 +1,40 @@
+body{
+    background-color:darkkhaki;
+    height:2000px;
+    background-position: center;
+    background-attachment: fixed;
+    font-style:oblique;
+}
+
+h1{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    border: 3px solid black;
+    padding: 40px;
+    margin: 50px 200px;
+    text-align: center;
+    font: size 35px;
+    background-color: cadetblue;
+    box-shadow: 10px 15px 5px 3px rgb(92, 121. 201);
+    border-radius: 6px 15px;
+    transition:background-color 4s , font-size 2s;
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+      text-align: center;
+      color: wheat;
+      text-align: center;
+  }
+
+  p{
+      text-align: center;
+      color: wheat;
+  }
+
+
+
+

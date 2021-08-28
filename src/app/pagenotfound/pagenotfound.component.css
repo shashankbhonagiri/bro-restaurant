@@ -1,0 +1,13 @@
+h4,p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    display: flex;
+    margin-left: 720px;
+}
+body{
+    background-image: url(../../assets/images/img53.jpg);
+    padding-right:initial;
+    height:1000px;
+}

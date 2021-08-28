@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<!--Brand-->
+<li class="active"></li>
+<a class="navbar-brand" href="#">
+<img src="./assets/images/img1.png" class="rounded-circle" alt="no img" width="40px" height="40px">
+</a>
+
+ <!--links-->
+ <ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" routerLink='/home'><i class="fas fa-home"></i>HOME</a>
+    </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink='/ordernow'><i class="fas fa-utensils"></i>ORDERNOW</a>
+        </li> 
+        <li class="nav-item">
+            <a class="nav-link" routerLink='/contactus'><i class="fas fa-phone-alt"></i>CONTACT US</a>
+        </li>
+
+        <li class="nav-item">
+            <a class ="nav-link" routerLink='/reviews'><i class="fas fa-star"></i>REVIEWS</a>
+
+      <li class="nav-item">
+        <a class ="nav-link" routerLink='/menua'>MENUA</a> 
+       </li>
+
+      <li class="nav-item">
+        <a class ="nav-link" routerLink='/menub'>MENUB</a> 
+      </li>
+    <li class="nav-item">
+        <a class ="nav-link" routerLink='/menuc'>MENUC</a> 
+    </li>
+
+             <!--Drop down -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink='/menu' id="navbardrop" data-toggle="dropdown"><i class="fas fa-utensils-alt"></i>Menu</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" routerLink="menu/vegetarians">VEGETARIANS</a>
+                    <a class="dropdown-item" routerLink="menu/nonvegetarians">NONVEGETARIANS</a>
+                </div>
+            </li>  
+            <li class="nav-item">
+                <a class ="nav-link" routerLink='/cart'><i class="fas fa-cart-arrow-down"></i>CART</a> 
+            </li>
+     <div class="right"></div>
+     <li class="nav-item">
+        <a class ="nav-link" routerLink='/signup'><i class="fas fa-user-plus"></i>SIGN UP</a> 
+    </li>
+    <li class="nav-item">
+        <a class ="nav-link" routerLink='/login'><i class="fas fa-sign-in-alt"></i>LOGIN</a> 
+    </li>    
+    </ul>
+</nav>
+<router-outlet></router-outlet>
+</body>
+<div>
+    <app-footer></app-footer>
+</div>
+</html>
+  
+ 

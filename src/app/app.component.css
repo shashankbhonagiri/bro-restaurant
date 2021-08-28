@@ -1,0 +1,21 @@
+
+ li :hover{
+    margin-left: 10px;
+    background-color:gray;
+}
+
+ul{
+    display:flex;
+}
+
+a{
+    color: coral;
+    text-decoration:none
+}
+
+.right
+{
+    display: flex;
+    margin-right: 100px;
+}
+
